@@ -6,6 +6,8 @@ gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC)
 ```
 [教材主页](http://csapp.cs.cmu.edu/)
 
+[哔哩哔哩15-213](https://www.bilibili.com/video/av24540152)
+
 [中文版勘误](http://www.yiligong.org/csapp3e/)
 
 [homework参考](https://github.com/DreamAndDead/CSAPP-3e-Solutions)
