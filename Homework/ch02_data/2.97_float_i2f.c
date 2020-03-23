@@ -55,7 +55,7 @@ unsigned int bits_mask(int L) {
 float_bits float_i2f(int i) {
     unsigned sig, exp, frac, rest, exp_sig, round_part;
     unsigned bits, fbits;
-    unsigned bias = 0x7F;
+    unsigned bias = 127;
 
     if (i == 0) {
         sig = 0;
@@ -108,15 +108,15 @@ int main(void) {
     int i;
 
     i = INT_MIN;
-    assert(u2f(float_i2f((unsigned) i)) == (float)i);
+    assert(u2f(float_i2f(i)) == (float)i);
     i = -1000;
-    assert(u2f(float_i2f((unsigned) i)) == (float)i);
+    assert(u2f(float_i2f(i)) == (float)i);
     i = 0;
-    assert(u2f(float_i2f((unsigned) i)) == (float)i);
+    assert(u2f(float_i2f(i)) == (float)i);
     i = 1000;
-    assert(u2f(float_i2f((unsigned) i)) == (float)i);
+    assert(u2f(float_i2f(i)) == (float)i);
     i = INT_MAX;
-    assert(u2f(float_i2f((unsigned) i)) == (float)i);
+    assert(u2f(float_i2f(i)) == (float)i);
 
     return 0;
 }
