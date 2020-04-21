@@ -12,6 +12,8 @@ gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC)
 
 [homework参考](https://github.com/DreamAndDead/CSAPP-3e-Solutions)
 
+[lab博文](https://jiabi.tech/tags/CSAPP/)
+
 [lab参考](https://github.com/Exely/CSAPP-Labs)
 
 [华章CSAPP学习专区](http://bbs.hztraining.com/forum.php?mod=forumdisplay&fid=2)
